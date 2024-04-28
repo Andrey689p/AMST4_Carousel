@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AMST4_Carousel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Program.cs",
+              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Program.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T17:00:02.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\appsettings.json",
+              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\appsettings.json",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T16:58:54.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Models\\Category.cs",
+              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Models\\Category.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:23:25.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Context\\DataContext.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Context\\DataContext.cs",
+              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Context\\DataContext.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Context\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:22:59.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Carousel.cshtml",
+              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T15:15:02.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
