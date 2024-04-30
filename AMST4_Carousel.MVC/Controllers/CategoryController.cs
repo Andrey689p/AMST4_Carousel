@@ -12,7 +12,8 @@ namespace AMST4_Carousel.MVC.Controllers
         }
         public IActionResult CategoryList()
         {
-            return View();
+            var categories = _DataContext.Category.ToList();
+            return View(categories);
         }
     }
 }
