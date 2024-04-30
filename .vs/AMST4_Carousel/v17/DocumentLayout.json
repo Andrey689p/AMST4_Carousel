@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\AMST4_Carousel\\",
+  "WorkspaceRootPath": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\amst4_carousel.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\amst4_carousel.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\users\\andre_wj3zd7w\\downloads\\amst4_carousel\\amst4_carousel.mvc\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|c:\\amst4_carousel\\amst4_carousel.mvc\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{719C7BC8-B91B-4C4C-9A9C-469A460011D4}|AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj|solutionrelative:amst4_carousel.mvc\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +55,126 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Program.cs",
-              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Program.cs",
-              "RelativeToolTip": "AMST4_Carousel.MVC\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:00:02.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\appsettings.json",
-              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\appsettings.json",
-              "RelativeToolTip": "AMST4_Carousel.MVC\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-28T16:58:54.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Models\\Category.cs",
-              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Models\\Category.cs",
-              "RelativeToolTip": "AMST4_Carousel.MVC\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:23:25.275Z",
+              "Title": "CategoryList.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Category\\CategoryList.cshtml",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Views\\Category\\CategoryList.cshtml",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Category\\CategoryList.cshtml",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Category\\CategoryList.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T11:01:17.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "_Carousel.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T10:49:29.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T19:54:45.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AMST4_Carousel.MVC.csproj",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-29T19:50:05.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Program.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T17:00:02.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\appsettings.json",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-28T16:58:54.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Models\\Category.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T15:23:25.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Context\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Context\\DataContext.cs",
               "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Context\\DataContext.cs",
-              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Context\\DataContext.cs",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Context\\DataContext.cs",
               "RelativeToolTip": "AMST4_Carousel.MVC\\Context\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:22:59.258Z",
+              "WhenOpened": "2024-04-28T15:22:59.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T19:14:42.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Carousel.cshtml",
-              "DocumentMoniker": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
-              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
-              "ToolTip": "C:\\AMST4_Carousel\\AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
-              "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Shared\\_Carousel.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T15:15:02.633Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AMST4_Carousel.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\andre_wj3zd7w\\Downloads\\AMST4_Carousel\\AMST4_Carousel.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AMST4_Carousel.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:23:32.335Z",
               "EditorCaption": ""
             }
           ]
