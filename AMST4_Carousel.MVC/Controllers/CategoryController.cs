@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using AMST4.Carousel.MVC.Context;
+using AMST4_Carousel.MVC.Models;
 
 namespace AMST4_Carousel.MVC.Controllers
 {
@@ -15,5 +16,18 @@ namespace AMST4_Carousel.MVC.Controllers
             var categories = _DataContext.Category.ToList();
             return View(categories);
         }
+        [HttpPost]
+        public IActionResult AddCategory(Category category)
+        {
+            _DataContext.Category.Add(category);
+            _DataContext.SaveChanges();
+            category.Id = new Guid();
+            return RedirectToAction("CategoryList");
+        }
+        public IActionResult AddCategory()
+        {
+            return View();
+        }
+
     }
 }
