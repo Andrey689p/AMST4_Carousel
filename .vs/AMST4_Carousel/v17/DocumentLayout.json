@@ -54,8 +54,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Product\\AddProduct.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAC8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T17:23:29.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T17:23:29.442Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Category\\CategoryList.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T17:21:33.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T17:21:33.332Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Product\\ProductList.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T17:19:04.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T17:19:04.779Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Product\\DeleteProduct.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T17:16:54.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T17:16:54.525Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Views\\Category\\DeleteCategory.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T00:42:12.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T00:42:12.206Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowCgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T00:42:02.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T00:42:02.09Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "AMST4_Carousel.MVC\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowB8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T00:34:18.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T00:34:18.59Z"
             }
           ]
         }
