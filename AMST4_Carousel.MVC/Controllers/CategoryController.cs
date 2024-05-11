@@ -29,5 +29,33 @@ namespace AMST4_Carousel.MVC.Controllers
             return View();
         }
 
+
+        [HttpGet]
+        public IActionResult DeleteCategory(Guid id)
+        {
+            var category = _DataContext.Category.Find(id);
+            if (category == null)
+            {
+                return NotFound(); 
+            }
+            return View(category); 
+        }
+
+        [HttpPost, ActionName("DeleteCategory")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteCategoryConfirmed(Guid id)
+        {
+            var category = await _DataContext.Category.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            _DataContext.Category.Remove(category);
+            await _DataContext.SaveChangesAsync();
+
+            return RedirectToAction("CategoryList");
+        }
+        }
+
     }
-}
