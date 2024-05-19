@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj": {}
+    "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj": {}
   },
   "projects": {
-    "E:\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj": {
+    "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+        "projectUniqueName": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
         "projectName": "AMST4_Carousel.MVC",
-        "projectPath": "E:\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+        "projectPath": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
         "packagesPath": "C:\\Users\\andre_wj3zd7w\\.nuget\\packages\\",
-        "outputPath": "E:\\AMST4_Carousel\\AMST4_Carousel.MVC\\obj\\",
+        "outputPath": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

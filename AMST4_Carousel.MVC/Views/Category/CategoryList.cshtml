@@ -1,47 +1,53 @@
 ﻿@model IEnumerable<AMST4_Carousel.MVC.Models.Category>
 
 @{
-    ViewData["Title"] = "CategoryList";
+    ViewData["Title"] = "Lista de Categoria";
 }
 
-<h1>CategoryList</h1>
+<h1>Lista de Categorias</h1>
 
 <p>
-    <a asp-action="AddCategory">Criar Novo</a>
+    <a class="btn btn-success" asp-action="AddCategory"><i class="fa fa-plus-circle"></i> Cadastrar</a>
 </p>
-<table class="table">
+<table id="myTable" class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+                Descrição
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsActive)
+               Url da Imagem
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
+        <tr class="p-3">
+            <td class="m-auto p-3">
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
-            <td>
+            <td class="m-auto p-3">
                 @Html.DisplayFor(modelItem => item.ImageUrl)
             </td>
+
             <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                <a asp-action="DeleteCategory" asp-route-id="@item.Id">Excluir</a>
+                    <a class="btn btn-success mt-1 me-1 pt-1 pb-1" asp-action="EditCategory" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
+                    <a class="btn btn-primary mt-1 me-1 pt-1 pb-1" asp-action="DetailsCategory" asp-route-id="@item.Id"><i class="fa fa-search"></i></a>
+                    <a class="btn btn-danger mt-1 pt-1 pb-1" asp-action="DeleteCategory" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        var table = new DataTable('#myTable', {
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.0.7/i18n/pt-BR.json',
+            },
+        });
+    </script>
+    
+}

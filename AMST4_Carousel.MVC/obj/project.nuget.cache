@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c5EoLpSVtSp9nlVkIVYTIfKQA0AZxQnUPa02qP35+6g/UdeGYwDVJfdwiIV7RCeZw+s+pB4Vp6bUPTYbwSmfdw==",
+  "dgSpecHash": "uj8amrrw91xY4JUva+jSAsNP0qVYBxau9BosyIiFxyYV2Z/uzQpJJ8fifGm+aNLWk1G19zCUgaylh4RHnk1CAQ==",
   "success": true,
-  "projectFilePath": "E:\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
+  "projectFilePath": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\AMST4_Carousel.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre_wj3zd7w\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\andre_wj3zd7w\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

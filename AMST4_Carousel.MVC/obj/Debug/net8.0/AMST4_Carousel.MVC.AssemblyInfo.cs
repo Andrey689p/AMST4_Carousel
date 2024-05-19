@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AMST4_Carousel.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e8d350f5224f6be65c19802fabdce6a6c496e6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5739d06f430c7eb840a18c684731a4d0d9aa78c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AMST4_Carousel.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AMST4_Carousel.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
