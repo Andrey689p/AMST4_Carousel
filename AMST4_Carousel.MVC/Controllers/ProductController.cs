@@ -52,13 +52,20 @@ namespace AMST4_Carousel.MVC.Controllers
             return View();
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddProduct([Bind("Id,Name,Brand,Description,ImageUrl,Price,Stock,IsActive,CreateDate,CategoryId")] Product product)
+        public async Task<IActionResult> AddProduct(Product product, IFormFile image)
         {
-
-
+            if (image != null)
+            {
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Product", fileName);
+                using (var stream = new FileStream(filepath, FileMode.Create))
+                {
+                    await image.CopyToAsync(stream);
+                }
+                product.ImageUrl = Path.Combine("images", "Product", fileName);
+            }
             product.Id = Guid.NewGuid();
             _context.Add(product);
             await _context.SaveChangesAsync();
@@ -69,6 +76,7 @@ namespace AMST4_Carousel.MVC.Controllers
         //Começo Edit        
         public async Task<IActionResult> EditProduct(Guid? id)
         {
+            ViewBag.Categorylist = new SelectList(_context.Category, "Id", "Description");
             if (id == null)
             {
                 return NotFound();
@@ -79,37 +87,104 @@ namespace AMST4_Carousel.MVC.Controllers
             {
                 return NotFound();
             }
-            ViewBag.Categorylist = new SelectList(_context.Category, "Id", "Description");
+
             return View(product);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditProduct(Guid id, [Bind("Id,Name,Brand,Description,ImageUrl,Price,Stock,IsActive,CreateDate,CategoryId")] Product product)
+        public async Task<IActionResult> EditProduct(Guid? id, Product product, IFormFile image)
         {
             if (id != product.Id)
             {
                 return NotFound();
             }
-            try
-            {
-                _context.Update(product);
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ProductExists(product.Id))
+                try
                 {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-            return RedirectToAction("ProductList");
+                    if (image != null)
+                    {
+                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                        var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Product", fileName);
+                        using (var stream = new FileStream(filepath, FileMode.Create))
+                        {
+                            await image.CopyToAsync(stream);
+                        }
+                        // Delete old image if exists
+                        if (!string.IsNullOrEmpty(product.ImageUrl))
+                        {
+                            var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", product.ImageUrl);
+                            if (System.IO.File.Exists(oldImagePath))
+                            {
+                                System.IO.File.Delete(oldImagePath);
+                            }
+                        }
+                        product.ImageUrl = Path.Combine("images", "Product", fileName);
+                    }
 
+                    _context.Update(product);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!ProductExists(product.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(ProductList));
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditProduct(Guid id, [Bind("Id,Name,Description,ImageUrl,CategoryId")] Product product, IFormFile image)
+        {
+            if (id != product.Id)
+            {
+                return NotFound();
+            }
+                try
+                {
+                    if (image != null)
+                    {
+                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                        var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Product", fileName);
+                        using (var stream = new FileStream(filepath, FileMode.Create))
+                        {
+                            await image.CopyToAsync(stream);
+                        }
+                        // Delete old image if exists
+                        if (!string.IsNullOrEmpty(product.ImageUrl))
+                        {
+                            var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", product.ImageUrl);
+                            if (System.IO.File.Exists(oldImagePath))
+                            {
+                                System.IO.File.Delete(oldImagePath);
+                            }
+                        }
+                        product.ImageUrl = Path.Combine("images", "Product", fileName);
+                    }
+
+                    _context.Update(product);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!ProductExists(product.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(ProductList));
+        }
+
         //Fim Edit
         //Começo Delete
         public async Task<IActionResult> DeleteProduct(Guid? id)
@@ -130,19 +205,28 @@ namespace AMST4_Carousel.MVC.Controllers
             return View(product);
         }
 
-
         [HttpPost, ActionName("DeleteProduct")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        public async Task<IActionResult> DeleteConfirmedProduct(Guid id)
         {
             var product = await _context.Product.FindAsync(id);
             if (product != null)
             {
+                // Delete the image if it exists
+                if (!string.IsNullOrEmpty(product.ImageUrl))
+                {
+                    var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", product.ImageUrl);
+                    if (System.IO.File.Exists(imagePath))
+                    {
+                        System.IO.File.Delete(imagePath);
+                    }
+                }
+
                 _context.Product.Remove(product);
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction("ProductList");
+            return RedirectToAction(nameof(ProductList));
         }
 
         private bool ProductExists(Guid id)

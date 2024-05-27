@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Remove="Controllers\CategoryController.cs~RF62517e.TMP" />
+    <None Remove="Controllers\ProductController.cs~RF14d001c9.TMP" />
   </ItemGroup>
 
   <ItemGroup>

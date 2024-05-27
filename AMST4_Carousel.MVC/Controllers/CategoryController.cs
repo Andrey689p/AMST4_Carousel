@@ -50,9 +50,18 @@ namespace AMST4_Carousel.MVC.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddCategory([Bind("Id,Description,ImageUrl,IsActive,CreateDate")] Category category)
+        public async Task<IActionResult> AddCategory(Category category, IFormFile image)
         {
-
+            if (image != null)
+            {
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                var filepath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Category", fileName);
+                using (var stream = new FileStream(filepath, FileMode.Create))
+                {
+                    await image.CopyToAsync(stream);
+                }
+                category.ImageUrl = Path.Combine("images", "Category", fileName);
+            }
             category.Id = Guid.NewGuid();
             _context.Add(category);
             await _context.SaveChangesAsync();
@@ -78,20 +87,52 @@ namespace AMST4_Carousel.MVC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditCategory(Guid id, [Bind("Id,Description,ImageUrl,IsActive,CreateDate")] Category category)
+        public async Task<IActionResult> EditCategory(Guid id, Category category, IFormFile image)
         {
             if (id != category.Id)
             {
                 return NotFound();
             }
+
+            var existingCategory = await _context.Category.FindAsync(id);
+            if (existingCategory == null)
+            {
+                return NotFound();
+            }
+
+            if (image != null)
+            {
+                // Exclui a imagem Antiga
+                if (!string.IsNullOrEmpty(existingCategory.ImageUrl))
+                {
+                    var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", existingCategory.ImageUrl);
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                // Salva a Nova Imagem
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                var newFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Category", fileName);
+                using (var stream = new FileStream(newFilePath, FileMode.Create))
+                {
+                    await image.CopyToAsync(stream);
+                }
+                existingCategory.ImageUrl = Path.Combine("images", "Category", fileName);
+            }
+
+            // Atualiza outras propriedades da categoria
+            existingCategory.Description = category.Description;
+
             try
             {
-                _context.Update(category);
+                _context.Update(existingCategory);
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CategoryExists(category.Id))
+                if (!CategoryExists(existingCategory.Id))
                 {
                     return NotFound();
                 }
@@ -102,6 +143,7 @@ namespace AMST4_Carousel.MVC.Controllers
             }
             return RedirectToAction("CategoryList");
         }
+
         //Fim Edit
         //Começo Delete
         public async Task<IActionResult> DeleteCategory(Guid? id)
@@ -121,7 +163,6 @@ namespace AMST4_Carousel.MVC.Controllers
             return View(category);
         }
 
-
         [HttpPost, ActionName("DeleteCategory")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmedCategory(Guid id)
@@ -129,10 +170,21 @@ namespace AMST4_Carousel.MVC.Controllers
             var category = await _context.Category.FindAsync(id);
             if (category != null)
             {
+                // Verifica se a categoria tem uma imagem associada
+                if (!string.IsNullOrEmpty(category.ImageUrl))
+                {
+                    var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", category.ImageUrl);
+                    if (System.IO.File.Exists(imagePath))
+                    {
+                        System.IO.File.Delete(imagePath);
+                    }
+                }
+
+                // Remove a categoria do banco de dados
                 _context.Category.Remove(category);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction("CategoryList");
         }
 

@@ -86,6 +86,27 @@ namespace AMST4_Carousel.MVC.Migrations
                     b.ToTable("Product");
                 });
 
+            modelBuilder.Entity("AMST4_Carousel.MVC.Models.Size", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Size");
+                });
+
             modelBuilder.Entity("AMST4_Carousel.MVC.Models.Product", b =>
                 {
                     b.HasOne("AMST4_Carousel.MVC.Models.Category", "Category")

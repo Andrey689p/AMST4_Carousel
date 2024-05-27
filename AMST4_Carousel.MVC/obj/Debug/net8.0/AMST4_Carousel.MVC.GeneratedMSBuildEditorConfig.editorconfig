@@ -86,6 +86,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Jeff/AMST4_Carousel/AMST4_Carousel.MVC/Views/Size/AddSize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxBZGRTaXplLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Jeff/AMST4_Carousel/AMST4_Carousel.MVC/Views/Size/DeleteSize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxEZWxldGVTaXplLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Jeff/AMST4_Carousel/AMST4_Carousel.MVC/Views/Size/EditSize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxFZGl0U2l6ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Jeff/AMST4_Carousel/AMST4_Carousel.MVC/Views/Size/SizeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxTaXplTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Jeff/AMST4_Carousel/AMST4_Carousel.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

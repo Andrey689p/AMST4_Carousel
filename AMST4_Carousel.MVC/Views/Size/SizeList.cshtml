@@ -1,0 +1,50 @@
+﻿@model IEnumerable<AMST4_Carousel.MVC.Models.Size>
+
+@{
+    ViewData["Title"] = "Listar Tamanhos";
+}
+
+<h1>Listar Tamanhos</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="AddSize"><i class="fa fa-plus-circle"></i> Cadastrar</a>
+</p>
+<table id="myTable" class="table text-light">
+    <thead>
+        <tr>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td class="m-auto p-3">
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                    <a class="btn btn-success mt-1 me-1 pt-1 pb-1" asp-action="EditSize" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
+                    <a class="btn btn-danger mt-1 pt-1 pb-1" asp-action="DeleteSize" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+@section Scripts {
+    <script>
+
+        var table = new DataTable('#myTable', {
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.0.7/i18n/pt-BR.json',
+            },
+        });
+    </script>
+
+}

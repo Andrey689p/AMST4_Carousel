@@ -2,13 +2,13 @@
 
 namespace AMST4_Carousel.MVC.Models
 {
-    public class Category
+    /// <summary>
+    /// <Author>Andrey Bertoletti</Author>
+    /// </summary>
+    public class Category : BaseInfo
     {
-        public Guid Id { get; set; }
-        public string Description { get; set; }
-        public string ImageUrl { get; set; }
-        public bool IsActive { get; set; } = true;
-        public DateTime CreateDate { get; set; } = DateTime.Now;
-        public virtual List<Product> Products { get; set; }
+        public string Description { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = string.Empty;
+        public virtual List<Product>? Products { get; set; }
     }
 }

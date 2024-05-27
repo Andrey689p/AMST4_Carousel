@@ -9,7 +9,7 @@
 <p>
     <a class="btn btn-success" asp-action="AddProduct"><i class="fa fa-plus-circle"></i> Cadastrar</a>
 </p>
-<table id="myTable" class="table">
+<table id="myTable" class="table text-light">
     <thead>
         <tr>
             <th>
@@ -18,10 +18,10 @@
             <th>
                 Marca
             </th>
-            <th>
+            <th class="text-start">
                 Url da Imagem
             </th>
-            <th>
+            <th class="text-start">
                 Preço
             </th>
             <th></th>
@@ -29,20 +29,27 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr class="p-3">
-            <td class="m-auto p-3">
+        <tr class="p-3 text-light">
+            <td class="m-3 pt-5">
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
-            <td class="m-auto p-3">
+            <td class="m-3 pt-5">
                 @Html.DisplayFor(modelItem => item.Brand)
             </td>
-            <td class="m-auto p-3">
-                @Html.DisplayFor(modelItem => item.ImageUrl)
-            </td>
-            <td class="m-auto  p-3">
+                <td class="m-3 p-3 text-start">
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@Url.Content("~/" + item.ImageUrl)" alt="@item.Description" style="width: 100px; height: auto;" />
+                    }
+                    else
+                    {
+                        <span>Sem imagem</span>
+                    }
+                </td>
+                <td class="m-3 pt-5 text-start">
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
-            <td>
+            <td class="m-3 pt-5">
                     <a class="btn btn-success mt-1 me-1 pt-1 pb-1" asp-action="EditProduct" asp-route-id="@item.Id"><i class="fa fa-edit"></i></a>
                     <a class="btn btn-primary mt-1 me-1 pt-1 pb-1"asp-action="DetailsProduct" asp-route-id="@item.Id"><i class="fa fa-search"></i></a>
                     <a class="btn btn-danger mt-1 pt-1 pb-1"asp-action="DeleteProduct" asp-route-id="@item.Id"><i class="fa fa-trash"></i></a>
@@ -62,3 +69,4 @@
     </script>
 
 }
+

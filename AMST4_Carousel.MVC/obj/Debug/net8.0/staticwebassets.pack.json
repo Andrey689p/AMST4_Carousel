@@ -21,16 +21,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\tenis1.jpeg",
-      "PackagePath": "staticwebassets\\images\\tenis1.jpeg"
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis1.jpeg",
+      "PackagePath": "staticwebassets\\images\\Carousel\\tenis1.jpeg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\tenis2.jpeg",
-      "PackagePath": "staticwebassets\\images\\tenis2.jpeg"
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis2.jpeg",
+      "PackagePath": "staticwebassets\\images\\Carousel\\tenis2.jpeg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\tenis3.jpeg",
-      "PackagePath": "staticwebassets\\images\\tenis3.jpeg"
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis3.jpeg",
+      "PackagePath": "staticwebassets\\images\\Carousel\\tenis3.jpeg"
+    },
+    {
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\453c5133-6354-44cd-b420-be36a9faee67.jpg",
+      "PackagePath": "staticwebassets\\images\\Category\\453c5133-6354-44cd-b420-be36a9faee67.jpg"
+    },
+    {
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\8b15291d-b216-4412-9aa7-67ee03255061.jpeg",
+      "PackagePath": "staticwebassets\\images\\Category\\8b15291d-b216-4412-9aa7-67ee03255061.jpeg"
+    },
+    {
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Product\\a3e7d87c-51de-4013-bc09-7dce92edb28b.png",
+      "PackagePath": "staticwebassets\\images\\Product\\a3e7d87c-51de-4013-bc09-7dce92edb28b.png"
+    },
+    {
+      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Product\\e6afda54-c2c0-472d-a1d1-6e26d3d14123.jpg",
+      "PackagePath": "staticwebassets\\images\\Product\\e6afda54-c2c0-472d-a1d1-6e26d3d14123.jpg"
     },
     {
       "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\all.min.js",
