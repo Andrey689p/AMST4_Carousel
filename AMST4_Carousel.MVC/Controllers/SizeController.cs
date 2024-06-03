@@ -18,16 +18,14 @@ namespace AMST4_Carousel.MVC.Controllers
         {
             _context = context;
         }
-
-        // GET: Size
+        //Começo List
         public async Task<IActionResult> SizeList()
         {
             var category = await _context.Size.ToListAsync();
             return View(category);
         }
-
-
-
+        //Fim List
+        //Começo Add
         public IActionResult AddSize()
         {
             return View();
@@ -41,10 +39,12 @@ namespace AMST4_Carousel.MVC.Controllers
                 size.Id = Guid.NewGuid();
                 _context.Add(size);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("SizeList");
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Tamanho adicionado com sucesso!";
+            return RedirectToAction("SizeList");
         }
-
-        // GET: Size/Edit/5
+        //Fim Add
+        //Começo Edit
         public async Task<IActionResult> EditSize(Guid? id)
         {
             if (id == null)
@@ -85,10 +85,13 @@ namespace AMST4_Carousel.MVC.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction("SizeList");
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Tamanho editado com sucesso!";
+            return RedirectToAction("SizeList");
         }
 
-        // GET: Size/Delete/5
+        //Fim Edit
+        //Começo Delete
         public async Task<IActionResult> DeleteSize(Guid? id)
         {
             if (id == null)
@@ -102,11 +105,12 @@ namespace AMST4_Carousel.MVC.Controllers
             {
                 return NotFound();
             }
-
+            TempData["ToastType"] = "warning";
+            TempData["ToastMessage"] = "Tem certeza que deseja excluir isso?";
             return View(size);
         }
 
-        // POST: Size/Delete/5
+
         [HttpPost, ActionName("DeleteSize")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmedSize(Guid id)
@@ -118,8 +122,11 @@ namespace AMST4_Carousel.MVC.Controllers
             }
 
             await _context.SaveChangesAsync();
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Tamanho excluído com sucesso!";
             return RedirectToAction("SizeList");
         }
+        //Fim Delete
 
         private bool SizeExists(Guid id)
         {

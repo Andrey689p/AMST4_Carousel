@@ -12,7 +12,7 @@
 <table id="myTable" class="table text-light">
     <thead>
         <tr>
-            <th>
+            <th class="text-start">
                 Descrição
             </th>
             <th>
@@ -23,7 +23,7 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-                <td class="m-auto p-3">
+                <td class="m-auto p-3 text-start">
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>

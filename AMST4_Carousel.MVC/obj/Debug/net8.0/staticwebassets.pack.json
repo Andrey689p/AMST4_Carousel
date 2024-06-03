@@ -1,291 +1,295 @@
 {
   "Files": [
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AMST4_Carousel.MVC.bundle.scp.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AMST4_Carousel.MVC.bundle.scp.css",
       "PackagePath": "staticwebassets\\AMST4_Carousel.MVC.bundle.scp.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\css\\all.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\css\\all.min.css",
       "PackagePath": "staticwebassets\\css\\all.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\css\\fontawesome.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\css\\site.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\favicon.ico",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis1.jpeg",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis1.jpeg",
       "PackagePath": "staticwebassets\\images\\Carousel\\tenis1.jpeg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis2.jpeg",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis2.jpeg",
       "PackagePath": "staticwebassets\\images\\Carousel\\tenis2.jpeg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis3.jpeg",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Carousel\\tenis3.jpeg",
       "PackagePath": "staticwebassets\\images\\Carousel\\tenis3.jpeg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\453c5133-6354-44cd-b420-be36a9faee67.jpg",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\453c5133-6354-44cd-b420-be36a9faee67.jpg",
       "PackagePath": "staticwebassets\\images\\Category\\453c5133-6354-44cd-b420-be36a9faee67.jpg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\8b15291d-b216-4412-9aa7-67ee03255061.jpeg",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\8b15291d-b216-4412-9aa7-67ee03255061.jpeg",
       "PackagePath": "staticwebassets\\images\\Category\\8b15291d-b216-4412-9aa7-67ee03255061.jpeg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Product\\a3e7d87c-51de-4013-bc09-7dce92edb28b.png",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Category\\da3c1928-0e23-47fb-8563-9d3708099968.jpeg",
+      "PackagePath": "staticwebassets\\images\\Category\\da3c1928-0e23-47fb-8563-9d3708099968.jpeg"
+    },
+    {
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Product\\a3e7d87c-51de-4013-bc09-7dce92edb28b.png",
       "PackagePath": "staticwebassets\\images\\Product\\a3e7d87c-51de-4013-bc09-7dce92edb28b.png"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Product\\e6afda54-c2c0-472d-a1d1-6e26d3d14123.jpg",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\images\\Product\\e6afda54-c2c0-472d-a1d1-6e26d3d14123.jpg",
       "PackagePath": "staticwebassets\\images\\Product\\e6afda54-c2c0-472d-a1d1-6e26d3d14123.jpg"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\all.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\all.min.js",
       "PackagePath": "staticwebassets\\js\\all.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\fontawesome.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\fontawesome.min.js",
       "PackagePath": "staticwebassets\\js\\fontawesome.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\site.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Jeff\\AMST4_Carousel\\AMST4_Carousel.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

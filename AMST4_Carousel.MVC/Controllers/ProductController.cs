@@ -69,6 +69,8 @@ namespace AMST4_Carousel.MVC.Controllers
             product.Id = Guid.NewGuid();
             _context.Add(product);
             await _context.SaveChangesAsync();
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Produto adicionado com sucesso!";
             return RedirectToAction("ProductList");
 
         }
@@ -182,7 +184,9 @@ namespace AMST4_Carousel.MVC.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(ProductList));
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Produto Editado com sucesso!";
+            return RedirectToAction(nameof(ProductList));
         }
 
         //Fim Edit
@@ -201,7 +205,8 @@ namespace AMST4_Carousel.MVC.Controllers
             {
                 return NotFound();
             }
-
+            TempData["ToastType"] = "warning";
+            TempData["ToastMessage"] = "Tem Certeza que deseja excluir isso?";
             return View(product);
         }
 
@@ -226,6 +231,8 @@ namespace AMST4_Carousel.MVC.Controllers
             }
 
             await _context.SaveChangesAsync();
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Produto excluído com sucesso!";
             return RedirectToAction(nameof(ProductList));
         }
 

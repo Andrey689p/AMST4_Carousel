@@ -65,6 +65,8 @@ namespace AMST4_Carousel.MVC.Controllers
             category.Id = Guid.NewGuid();
             _context.Add(category);
             await _context.SaveChangesAsync();
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Categoria adicionada com sucesso!";
             return RedirectToAction("CategoryList");
 
         }
@@ -141,6 +143,8 @@ namespace AMST4_Carousel.MVC.Controllers
                     throw;
                 }
             }
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Categoria editada com sucesso!";
             return RedirectToAction("CategoryList");
         }
 
@@ -159,7 +163,8 @@ namespace AMST4_Carousel.MVC.Controllers
             {
                 return NotFound();
             }
-
+            TempData["ToastType"] = "warning";
+            TempData["ToastMessage"] = "Tem certeza que deseja excluir isso?!";
             return View(category);
         }
 
@@ -184,7 +189,8 @@ namespace AMST4_Carousel.MVC.Controllers
                 _context.Category.Remove(category);
                 await _context.SaveChangesAsync();
             }
-
+            TempData["ToastType"] = "success";
+            TempData["ToastMessage"] = "Categoria excluida com sucesso!";
             return RedirectToAction("CategoryList");
         }
 
